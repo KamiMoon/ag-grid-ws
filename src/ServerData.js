@@ -90,8 +90,6 @@ function copyObject(object) {
 }
 
 function createRowData() {
-  console.log("creating new data set");
-
   globalRowData = [];
   for (let i = 0; i < products.length; i++) {
     const product = products[i];
